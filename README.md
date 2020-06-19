@@ -37,23 +37,24 @@ A aplicação em **Node.js** (backend) é uma **API REST** escrita em **Node.JS*
 A aplicação em **ReactJS** (frontend) é para visualizar suas transações e adicionar outras enviando um arquivo csv.
 
 ### :rocket: Começando
-```
-git clone https://github.com/Gabrielpdev/GoFinaces.git
-cd GoFinaces
+```bash
+$ git clone https://github.com/Gabrielpdev/GoFinaces.git
+$ cd GoFinaces
 ```
 ### :rocket: Iniciando com o backend
-```
-cd Backend
-// Cofigurar ormconfig.json de acordo com o seu banco de dados
-yarn
-yarn typeorm migration:run
-yarn dev:server
+```bash
+$cd Backend
+
+# Cofigurar ormconfig.json de acordo com o seu banco de dados
+$ yarn
+$ yarn typeorm migration:run
+$ yarn dev:server
 ```
 ### 💻 Iniciando com o Front-end 
-```
-cd Frontend
-yarn
-yarn start
+```bash
+$ cd Frontend
+$ yarn
+$ yarn start
 ```
 ### 🧰  Ferramentas utilizadas
 
